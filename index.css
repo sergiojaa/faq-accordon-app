@@ -2,4 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
+}
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+body{
+  background-image: linear-gradient(to bottom, #b068e9, #6463e7);
+}
+body{
+  font-family: "Kumbh Sans", sans-serif;
 }

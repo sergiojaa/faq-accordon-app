@@ -1,0 +1,39 @@
+.container{
+    width: 920px;
+    height: 509px;
+    /* margin: 0 0 0 42.1px; */
+    /* padding: 0 95px 0 0;  */
+    margin: 128px auto;
+    border-radius: 23px;
+    box-shadow: 0 50px 50px -20px rgba(53, 18, 122, 0.5);
+    background-color: #fff;
+    display: flex;
+}
+.womanimage{
+    width: 388px;
+    height: 359px;
+    margin: 70px 87px 80px 0px;
+}
+h1{
+    width: 67px;
+  height: 32px;
+  margin: 65px 378px 43px 87px;
+  font-weight: bold;
+  color: #1e1f36;
+}
+.line{
+    width: 350px;
+  height: 1px;
+  margin: 18px 18px;
+  background-color: #e8e8ea;
+}
+.questions{
+    width: 253px;
+    height: 18px;
+    margin: 0 72px 18px 1px;
+    object-fit: contain;
+    font-family: KumbhSans;
+    font-size: 14px;
+    color: #4b4c5f;
+    cursor: pointer;
+}
