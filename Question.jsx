@@ -6,8 +6,15 @@ export default function Question(props) {
   return (
     <div>
       <p className='questions' onClick={()=>{
-        setActive(id)
-      }} > {question} </p>
+        if(active === id){
+          setActive(0)
+        }else{
+          setActive(id)
+        }
+        
+      }} 
+      style={{ color: active === id ? 'red' : 'initial' }}
+      > {question} </p>
     </div>
   )
 }
